@@ -1,0 +1,40 @@
+{
+  "name": "intersperse-iterable",
+  "version": "1.0.0",
+  "description": "Interjects a value between each iterated item.",
+  "keywords": [
+    "intersperse",
+    "interject",
+    "interleave",
+    "separator",
+    "iterable",
+    "iterated",
+    "items"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/intersperse-iterable",
+  "repository": "lamansky/intersperse-iterable",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "pfn": "^1.0.0",
+    "sbo": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
